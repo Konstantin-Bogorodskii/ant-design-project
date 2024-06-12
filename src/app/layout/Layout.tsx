@@ -13,7 +13,7 @@ export const Layout: React.FC = () => {
 		<div className={styles.layout}>
 			<Header />
 
-			<main>
+			<main className={styles.main}>
 				<Space>
 					<SideMenu />
 					<Outlet />
