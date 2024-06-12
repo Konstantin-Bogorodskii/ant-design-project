@@ -14,9 +14,11 @@ export const Layout: React.FC = () => {
 			<Header />
 
 			<main className={styles.main}>
-				<Space>
+				<Space align="start">
 					<SideMenu />
-					<Outlet />
+					<div style={{ paddingTop: 5 }}>
+						<Outlet />
+					</div>
 				</Space>
 			</main>
 

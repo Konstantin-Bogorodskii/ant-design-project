@@ -8,5 +8,8 @@
 .main {
 	display: flex;
 	flex: 1;
+	align-items: flex-start;
+	justify-content: flex-start;
 	background-color: rgba(0, 0, 0, 0.05);
+	padding: 20px 0px;
 }
