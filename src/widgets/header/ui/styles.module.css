@@ -1,0 +1,13 @@
+.header {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 20px 4px 12px;
+	border-bottom: 3px solid #343434;
+}
+
+.icon {
+	font-size: 24px;
+	cursor: pointer;
+}
